@@ -10,6 +10,7 @@ body {
     background: var(--background);
     display: grid;
     grid-template-rows: auto 1fr;
+    background-color: rgb(208, 208, 208);
 }
 
 header {
@@ -24,12 +25,231 @@ header {
 
     background-color: var(--header-background);
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    background-color: rgb(108, 108, 108);
+}
+
+header h1 {
+    font-size: 1.5rem;
 }
 
 header .logo {
     height: 100%;
 }
 
+* {
+    /* border: solid 3px orange; */
+    color: white;
+}
+
+div {
+    border: solid 1px rgb(255, 255, 255);
+}
+
 main {
-    padding: 20px;
+    width: 940px;
+    margin: 0 auto;
+    height: 700px;
+    display: grid;
+    grid-template-rows: 10% 28% 5% 50% 7%;
+    background-color: rgb(46, 46, 46);
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    background-image: ;
+}
+
+.featured {
+    display: grid;
+    grid-template-columns: 20% 20% 60%;
+}
+
+.trending-header {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.trending {
+    display: grid;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    justify-content: space-around;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 2fr;
+    background-color: black;
+}
+
+.navbar {
+    display: grid;
+    grid-template-rows: 30% 70%;
+    text-align: center;
+}
+
+.cart {
+    text-align: right;
+}
+
+.featured-title {
+    padding-left: 20px;
+    padding-top: 60px;
+}
+
+.fast {
+    padding-top: 10px;
+    padding-right: 30px;
+    text-align: right;
+}
+
+.safe {
+    padding-top: 10px;
+    text-align: center;
+}
+
+.support {
+    padding-top: 10px;
+    text-align: center;
+}
+
+.trust {
+    padding-top: 10px;
+    padding-left: 40px;
+    text-align: left;
+}
+
+.trending-text {
+    padding-top: 4px;
+    padding-left: 150px;
+}
+
+.view-all {
+    padding-top: 4px;
+    padding-right: 120px;
+    text-align: right;
+}
+
+.filters {
+    font-size: 0.7rem;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: grid;
+    grid-template-columns: 30% 20% 20% 30%;
+}
+
+.platforms {
+    font-size: 1rem;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 30px;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+.spiderman {
+    min-width: 0;
+    min-height: 0;
+    width: 200px;
+    height: 95px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+}
+
+.frozen {
+    min-width: 0;
+    min-height: 0;
+    width: 200px;
+    height: 95px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+}
+
+.mount {
+    min-width: 0;
+    min-height: 0;
+    width: 200px;
+    height: 95px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+}
+
+.potion {
+    min-width: 0;
+    min-height: 0;
+    width: 200px;
+    height: 95px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+}
+
+.wrc {
+    min-width: 0;
+    min-height: 0;
+    width: 200px;
+    height: 95px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+}
+
+.farming {
+    min-width: 0;
+    min-height: 0;
+    width: 200px;
+    height: 95px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+}
+
+.cod {
+    min-width: 0;
+    min-height: 0;
+    width: 200px;
+    height: 95px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+}
+
+.zoo {
+    min-width: 0;
+    min-height: 0;
+    width: 200px;
+    height: 95px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+}
+
+.city {
+    min-width: 0;
+    min-height: 0;
+    width: 200px;
+    height: 95px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+}
+
+.search {
+    padding-right: 5px;
+    background-color: rgb(247, 93, 22);
+}
+
+.logo2 {
+    width: 65px;
+    height: 20px;
+    padding-left: 10px;
+    padding-top: 5px;
 }
