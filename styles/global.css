@@ -83,7 +83,7 @@ main {
 
 .navbar {
     display: grid;
-    grid-template-rows: 50% 50%;
+    grid-template-rows: 30% 70%;
     text-align: center;
 }
 
@@ -128,3 +128,19 @@ main {
     padding-right: 120px;
     text-align: right;
 }
+
+.filters {
+    font-size: 0.7rem;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: grid;
+    grid-template-columns: 30% 20% 20% 30%;
+}
+
+.platforms {
+    font-size: 1rem;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 30px;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
