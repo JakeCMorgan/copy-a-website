@@ -10,6 +10,7 @@ body {
     background: var(--background);
     display: grid;
     grid-template-rows: auto 1fr;
+    background-color: rgb(208, 208, 208);
 }
 
 header {
@@ -24,6 +25,7 @@ header {
 
     background-color: var(--header-background);
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    background-color: rgb(108, 108, 108);
 }
 
 header h1 {
@@ -35,11 +37,12 @@ header .logo {
 }
 
 * {
-    border: solid 3px orange;
+    /* border: solid 3px orange; */
+    color: white;
 }
 
 div {
-    border: solid 1px black;
+    border: solid 1px rgb(255, 255, 255);
 }
 
 main {
@@ -48,11 +51,13 @@ main {
     height: 700px;
     display: grid;
     grid-template-rows: 10% 28% 5% 50% 7%;
+    background-color: rgb(46, 46, 46);
 }
 
 .header {
     display: grid;
     grid-template-columns: 25% 50% 25%;
+    background-image: ;
 }
 
 .featured {
@@ -79,6 +84,7 @@ main {
 .footer {
     display: grid;
     grid-template-columns: 2fr 1fr 1fr 2fr;
+    background-color: black;
 }
 
 .navbar {
@@ -144,3 +150,106 @@ main {
     padding-right: 30px;
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+.spiderman {
+    min-width: 0;
+    min-height: 0;
+    width: 200px;
+    height: 95px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+}
+
+.frozen {
+    min-width: 0;
+    min-height: 0;
+    width: 200px;
+    height: 95px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+}
+
+.mount {
+    min-width: 0;
+    min-height: 0;
+    width: 200px;
+    height: 95px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+}
+
+.potion {
+    min-width: 0;
+    min-height: 0;
+    width: 200px;
+    height: 95px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+}
+
+.wrc {
+    min-width: 0;
+    min-height: 0;
+    width: 200px;
+    height: 95px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+}
+
+.farming {
+    min-width: 0;
+    min-height: 0;
+    width: 200px;
+    height: 95px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+}
+
+.cod {
+    min-width: 0;
+    min-height: 0;
+    width: 200px;
+    height: 95px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+}
+
+.zoo {
+    min-width: 0;
+    min-height: 0;
+    width: 200px;
+    height: 95px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+}
+
+.city {
+    min-width: 0;
+    min-height: 0;
+    width: 200px;
+    height: 95px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+}
+
+.search {
+    padding-right: 5px;
+    background-color: rgb(247, 93, 22);
+}
+
+.logo2 {
+    width: 65px;
+    height: 20px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
